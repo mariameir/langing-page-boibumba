@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: lighter;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-right: 151px;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    padding-left: 157px;
+}
+
+.left-side {
+    flex: 1;
+    padding-right: 20px;
+    
+}
+
+.right-side {
+    flex: 1;
+}
+
+.paragraph {
+    margin-bottom: 20px;
+}
+
+.phone-image {
+    width:35%;
+    display: block;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.footer-logo {
+    margin-right: 10px;
+    position: fixed;
+    bottom: 84px;
+    padding-right: 151px;
+}
+
+.image-container {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+    
+  }
+
+  
+h1{
+    font-family: 'Caprasimo', cursive;
+    font-size: 70px;
+    font-weight: 300;
+}
